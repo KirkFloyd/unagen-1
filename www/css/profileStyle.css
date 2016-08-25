@@ -1,18 +1,20 @@
-Body{
-	Background: #00688B;
-	Text-align: center;
+.container-fluid{
+	text-align: center;
+	padding:50px;
 }
 img{
-	Height: 195px;
-	Width: 195px;
+	height: 155px;
+	width: 195px;
+	align: center;
 }
 p{
-	Color: white;
-	Font-Size: 45px;
+	color: #2c3e50;
+	font-size: 45px;
+	text-align: center;
 }
 .description{
 	font-size:24px;
 }
 .span-link{
-	Font-size:24px;
+	font-size:24px;
 }

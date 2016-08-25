@@ -2,7 +2,6 @@
 	height: 100%;
 	padding-bottom: 15px;
 	text-align: center;
-	margin-top: 0;
 	background: none;
 }
 
@@ -11,19 +10,26 @@
 	background: rgba(28, 42, 55, 0.7);
 }
 
-.row input {
-	height: 30px;
-	width: 60%;
-	font-size: 15px;
-	margin-bottom: 13px;
-	background-color: #fff;
-	padding-left: 10px;
+input {
+    width: 70%;
+    height: 35px;
+    padding: 15px;
+    margin: 5px;
+}
+#lang-btn-w {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 60%;
+}
+
+#select-language-btn {
+    width: 100%;
 }
 
 #select-language{
-	height: 30px;
-	width: 60%;
-	font-size: 15px;
+	height: 40px;
+	width: 70%;
+	font-size: 30px;
 	margin-bottom: 13px;
 	background-color: #fff;
 	padding-left: 10px;
@@ -35,4 +41,20 @@
 
 label, h2{
 	color: #fff;
+	font-size: 25px;
+}
+.signUp{
+	color: red;
+}
+
+#submit-btn {
+    margin-top: 10px;
+    width : 40%;
+}
+
+#logo {
+    height: 150px;
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 20px;
 }
